@@ -1,0 +1,42 @@
+<html>
+<head>
+<meta charset='UTF-8'>
+<title>tps game</title>
+<style>
+	body {margin:0;}
+	div#canvas-frame{
+		border:none;
+		cursor:pointer;
+		width:100%;
+		height:100%;
+		background-color:#233333;
+	}
+	#info{
+		position:absolute;
+		top:50px;
+		width:100%;
+		text-align:center;
+		z-index:100;
+		display:block;
+		color:#FF0000;
+	}
+</style>
+</head>
+<body onload='threeStart()'>
+	<div id='canvas-frame'></div>
+	<div id='info'><h>hey</h>
+		<button id='startbtn' onclick="lockPointer()" disabled='true' >Start!</button>
+	</div>
+</body>
+<script src='three.min.js'></script>
+<script src='GLTFLoader.js'></script>
+<script src='states.js'></script>
+<script src='lockmouse.js'></script>
+<script src='spirit.js'></script>
+<script src='userEvent.js'></script>
+<script src='myMath.js'></script>
+<script src='myPanel.js'></script>
+<script src='collisionDetect.js'></script>
+<script src='mapJS.js'></script>
+<script src='main.js'></script>
+</html>

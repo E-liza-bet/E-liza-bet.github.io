@@ -1,0 +1,6 @@
+{
+	"name": "browDebugVer",
+	"devDependencies": {
+		"eslint": "^6.6.0"
+	}
+}
